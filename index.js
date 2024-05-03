@@ -3,6 +3,7 @@ const app = express();
 const host='0.0.0.0';
 const porta = 3000;
 var listaCarros= [];
+import path from 'path';
 
 app.use(express.static(path.join(process.cwd(), 'pagina')));
 
