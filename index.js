@@ -64,7 +64,7 @@ app.use('/CadastroDveiculo', (req,resp)=>{
         resp.write('</tr>');
     }
     resp.write('</table>');
-    resp.write('<a href="/">Voltar</a>');
+    resp.write('<a href="/cadastroDveiculos">Voltar</a>');
     resp.write('</body>');
     resp.write('</html>');
     resp.end();
