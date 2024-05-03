@@ -32,7 +32,7 @@ app.use('/CadastroDveiculo', (req,resp)=>{
      resp.write(`<h1> Carro ${marca} ${modelo} cadastrado com sucesso!</h1>`);
      resp.write('<a href="/cadastroDveiculo.html">Continuar cadastrando....</a>');
      resp.write("<br/>");
-     resp.write('<a href="/listarUsuarios">Listar Usuários</a>');
+     resp.write('<a href="/listaCarros">Listar Carros</a>');
      resp.write("</body>");
      resp.write('</html>')
      resp.end();
