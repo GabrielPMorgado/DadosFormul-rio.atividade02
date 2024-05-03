@@ -16,7 +16,7 @@ app.use('/CadastroDveiculo', (req,resp)=>{
     const placa=req.query.placa;
 
     listaCarros.push({
-        nome: marca,
+        marca: marca,
         modelo: modelo,
         ano: ano,
         cor: cor,
