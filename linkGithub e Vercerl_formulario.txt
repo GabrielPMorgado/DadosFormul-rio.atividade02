@@ -1,2 +1,0 @@
-link GitHub: https://github.com/GabrielPMorgado/DadosFormul-rio.atividade02.git
-link Vercel: https://dados-formul-rio-atividade02.vercel.app/
